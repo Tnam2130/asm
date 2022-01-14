@@ -175,7 +175,7 @@ ul.aaa>li {
 }
 
 .box-class {
-    font-size: 17.4px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1;
     margin-top: 10px;
@@ -188,6 +188,7 @@ ul.aaa>li {
     text-decoration: none;
     color: white;
     text-align: left;
+    height: 100%;
 }
 
 a {
@@ -256,12 +257,13 @@ a {
 
 .v-logo2>img {
     position: relative;
+    z-index: 10;
     display: inline-block;
     margin-left: 15%;
+    float: left;
     margin-top: 10px;
     width: 150px;
     min-height: auto;
-    z-index: 10;
 }
 
 .vsearch *.example {
