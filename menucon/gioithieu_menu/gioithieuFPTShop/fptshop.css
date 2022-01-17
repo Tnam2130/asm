@@ -1,0 +1,62 @@
+*{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 746px;
+    height: 100%;
+    padding: 30px 170px;
+}
+
+header img{
+    width: 746px;
+    height: 125px;
+}
+
+aside img{
+    padding-top: 20px;
+    float: right;
+    width: 285px;
+    height: 100%;
+    padding-left: 10px;
+}
+
+article{
+    text-align: justify;
+    float: left;
+    width: 440px;
+    padding-right: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.name1{
+    font-size: 30px;
+    margin: 20px 0px 30px;
+    color: #FF6C14;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: 'Roboto';
+}
+
+.box2{
+    float: right;
+}
+
+.box2 .name2{
+    font-size: 30px;
+    margin: 20px 0px 30px;
+    color: #FF6C14;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.box2 .line2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}

@@ -1,48 +1,82 @@
-.khung{
-    height: 100%;
-    width: 867px;
-    padding: 5px 5px;
-    border: 1px solid black;
+.boxcenter {
+    width: 80%;
+    margin: 0px auto;
+}
+*{
+    background-color: white;
+}
+
+.boxleft {
     float: left;
+    width: calc(65% - 20px);
+    min-height: 600px;
+    margin-right: 20px;
 }
 
-.tintuc{
-    float: right;
-    padding-right: 5px;
+.boxright {
+    float: left;
+    width: 30%;
+    min-height: 600px;
 }
 
-.tintuc img{
-    height: 200px;
+.boxleft img {
     width: 300px;
+    min-height: auto;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.tacgia img{
-    align: left;
-    height: 30px;
-    width: 30px;
-    padding-left: 5px;
-}
-.tentacgia{
-    color: #ccc;
-    padding-left: 5px;
-}
-
-.tintuc a{
-    vertical-align: top;
-    margin: 0 0 4px;
-    padding-left: 5px;
-}
-
-.chuindam{
-    margin: 0 0 4px;
-    font-family: sans-serif;
-    font-weight: bolder;
-    font-size: 10px;
-    padding-left: 5px;
-}
-
-.binhthuong{
-    padding-left: 5px;
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
     text-align: left;
-    margin: 0 0 4px;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.new-text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+div {
+    display: block;
+}
+
+.new-item {
+    text-decoration: none;
+    color: #0f71fb;
+    display: block;
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.new-user {
+    display: flex;
+    align-items: center;
+}
+
+.new-user span {
+    line-height: 22px;
+    color: #9b9b9b;
+}
+
+.new-user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
