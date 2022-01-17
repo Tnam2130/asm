@@ -69,18 +69,20 @@ header {
 
 footer {
     font-size: 15px;
-    padding: 5px;
+    margin: auto;
     text-align: center;
     background-color: #ccc;
     clear: both;
-    width: 1337px;
+    min-width: 1337px;
     font-weight: bolder;
     font-variant: small-caps;
 }
 
 .ac article {
     float: left;
-    width: 1078px;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
     background-color: brown;
 }
 
@@ -165,13 +167,6 @@ ul.aaa>li {
 
 .aaa>li:hover>.ada {
     display: block;
-}
-
-.container>footer {
-    line-height: 30px;
-    text-align: center;
-    font-variant: small-caps;
-    clear: both;
 }
 
 .box-class {
