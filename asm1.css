@@ -1,57 +1,63 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-.container{
-    border-top: 1px double whitesmoke ;
-    border-bottom: 1px double whitesmoke ;
-}   
-.dongba{
+.container {
+    border-top: 1px double whitesmoke;
+    border-bottom: 1px double whitesmoke;
+}
+
+.dongba {
     background-image: url(image/backgroud.png);
 }
-.conho{
+
+.conho {
     margin: 0px 400px;
 }
-header{
+
+header {
     background: #bc0000;
     width: 100%;
 }
-.aaa{
+
+.aaa {
     list-style: none;
     display: block;
 }
-.aaa li a{
-    color:white;
-    text-decoration:none;
-    font-size: 12px;   
-    padding-inline: 50px ;
+
+.aaa li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-inline: 50px;
     font-weight: bolder;
 }
 
-.donghai ul > li > a:hover{
-    text-decoration:none;
+.donghai ul>li>a:hover {
+    text-decoration: none;
     color: red;
 }
-.dongba aside ul li{
-    text-decoration:none;
-    color: white    ;
+
+.dongba aside ul li {
+    text-decoration: none;
+    color: white;
     list-style: none;
 }
 
-.dongba aside ul li a{
-    text-decoration:none;
-    color: white    ;
+.dongba aside ul li a {
+    text-decoration: none;
+    color: white;
     list-style: none;
     padding: 10px 10px;
     float: left;
 }
 
-.dongba a:hover{
+.dongba a:hover {
     color: red;
 }
 
-footer{
+footer {
     font-size: 15px;
     padding: 5px;
     text-align: center;
@@ -62,34 +68,34 @@ footer{
     font-variant: small-caps;
 }
 
-
-article{
+article {
     float: right;
     width: 80%;
     background-color: brown;
 }
-article img{
+
+article img {
     width: 1050px;
     height: 200px;
     padding: 5px 30px;
-    background-color:brown ;
+    background-color: brown;
 }
 
-iframe[name=page]{
+iframe[name=page] {
     width: 1070px;
     min-height: 643.3px;
-    padding-left:10px;
+    padding-left: 10px;
 }
 
-aside{
-    width:20%;
+aside {
+    width: 20%;
     float: left;
     background-color: brown;
     height: 2746px;
-    border-right: 0.1px double black  ;
+    border-right: 0.1px double black;
 }
 
-aside ul{
+aside ul {
     color: white;
     font-weight: bolder;
     text-decoration: none;
@@ -97,31 +103,32 @@ aside ul{
     margin-left: 20px;
 }
 
-aside ul ul li a{
-    margin-bottom: 10px ;
+aside ul ul li a {
+    margin-bottom: 10px;
 }
 
-
-.aaa{
+.aaa {
     list-style: none;
     background-color: black;
     height: 40px;
     clear: both;
 }
-ul.aaa>li>a{
+
+ul.aaa>li>a {
     display: block;
     line-height: 40px;
     text-decoration: none;
     color: white;
 }
-ul.aaa>li{
+
+ul.aaa>li {
     float: left;
     margin: 0 5px;
     position: relative;
 }
 
-.ada{
-    background-color: black;    
+.ada {
+    background-color: black;
     margin: 0px;
     padding: 0px;
     margin-left: 40px;
@@ -134,27 +141,27 @@ ul.aaa>li{
     border-right: 1px double whitesmoke;
 }
 
-.ada>li>a{
+.ada>li>a {
     display: block;
-    line-height: 20px; 
+    line-height: 20px;
     padding: 5px 10px;
 }
 
-.ada>li>a:hover{
+.ada>li>a:hover {
     color: red;
     font-weight: bolder;
     display: block;
 }
 
-.aaa>li:hover>.ada{
+.aaa>li:hover>.ada {
     display: block;
 }
 
-.container > footer{
+.container>footer {
     line-height: 30px;
-    text-align:center;
-    font-variant:small-caps;
-    clear:both;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
 }
 
 .box-class {
@@ -173,7 +180,7 @@ ul.aaa>li{
     text-align: left;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     padding: 0px 10px;
@@ -191,22 +198,22 @@ a{
     position: relative;
 }
 
-/*
 .checkboxes-item label {
     display: inline-block;
     padding-right: 10px;
     white-space: normal;
 }
+
 .checkboxes-item input {
     vertical-align: middle;
     position: relative;
     right: 10px;
 }
-.checkboxes-item label a{
+
+.checkboxes-item a {
     vertical-align: middle;
     padding: 0;
 }
-*/
 
 .v-header {
     z-index: 100;
