@@ -16,9 +16,13 @@ header img{
     height: 125px;
 }
 
+aside{
+    float: right;
+}
+
+
 aside img{
     padding-top: 20px;
-    float: right;
     width: 285px;
     height: 100%;
     padding-left: 10px;

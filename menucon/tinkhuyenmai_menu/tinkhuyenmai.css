@@ -1,25 +1,14 @@
-.boxcenter {
-    width: 80%;
-    margin: 0px auto;
-}
 *{
     background-color: white;
 }
 
 .boxleft {
     float: left;
-    width: calc(65% - 20px);
-    min-height: 600px;
+    width: calc(100% - 20px);
     margin-right: 20px;
 }
 
-.boxright {
-    float: left;
-    width: 30%;
-    min-height: 600px;
-}
-
-.boxleft img {
+.boxleft a img{
     width: 300px;
     min-height: auto;
     float: left;
@@ -30,14 +19,14 @@
     margin-bottom: 20px;
 }
 
-body {
+body{
     font-family: Roboto, sans-serif;
     line-height: 1.42857143;
     color: #333;
     text-align: left;
 }
 
-.box a {
+.box a{
     text-decoration: none;
     color: black;
     font-size: larger;
@@ -70,13 +59,13 @@ div {
     align-items: center;
 }
 
-.new-user span {
+.new-user span{
     line-height: 22px;
     color: #9b9b9b;
 }
 
-.new-user img {
+.new-user img{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    padding-right: 10px;
 }
