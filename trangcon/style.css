@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 16px;
+    min-height: 57px;
+}
+
+.top .name {
+    font-weight: 500;
+    color: #212529;
+    flex: 1;
+}
+
+.box-left {
+    width: calc(50%-15px);
+    position: sticky;
+    top: 15px;
+    float: left;
+}
+
+.slide {
+    position: relative;
+    min-height: 390px;
+    margin-bottom: 10px;
+}
+
+.swip {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.slide .swip .swip-slide {
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+}
+
+.slide-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.swip-slide .box-img {
+    position: relative;
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.box-right {
+    width: calc(50% - 15px);
+    float: left;
+    margin-left: 30px;
+}
+
+.box-price {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.price-1 {
+    flex: 1;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.price-main {
+    font-weight: 500;
+    color: #cb1c22;
+    margin-right: 10px;
+    font-size: 32px;
+    line-height: 40px;
+    margin-left: 150px;
+}
+
+.space {
+    display: flex;
+    margin-bottom: 16px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.box-signup {
+    margin-bottom: 16px;
+    padding: 24px 40px;
+    border-radius: 4px;
+    border: solid 1px #e1e4e6;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.box-signup .signup {
+    color: #444b52;
+    margin-bottom: 20px;
+}
+
+.box-form_signup {
+    display: flex;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.box-form_signup label {
+    width: 110px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 500;
+    -ms-flex-item-align: baseline;
+    align-self: baseline;
+    margin-top: 4px;
+}
+
+.box-form_signup label span {
+    color: #cb1c22;
+}
+
+.box-form_signup .box-input {
+    flex: 1;
+}
+
+.box-input {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.box-input input[type="submit"] {
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 16px;
+    min-height: 57px;
+    padding: 30px 0;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.bottom .title {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color: #212529;
+}
+
+.card {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.card .st-card {
+    margin-bottom: 10px;
+}
+
+.st-card {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    display: flex;
+    box-sizing: content-box;
+}
+
+.card.card-span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #212529;
+}

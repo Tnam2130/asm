@@ -269,3 +269,19 @@ li {
 i {
     font-style: italic;
 }
+.column .san-pham .box {
+    margin: 0;
+    background-color: none;
+    box-shadow: 0px 0px 5px #ccc;
+    position: relative;
+}
+
+.column .san-pham .box .box-img {
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.column .san-pham .box:hover .box-img {
+    opacity: 0.3;
+}
