@@ -46,7 +46,7 @@ body {
 }
 
 .slide .swip .swip-slide {
-    flex-shrink: 0;
+    display: block;
     height: 100%;
     position: relative;
 }
@@ -58,13 +58,13 @@ body {
 }
 
 .swip-slide .box-img {
-    position: relative;
     display: block;
 }
 
-img {
+
+/* img {
     vertical-align: middle;
-}
+} */
 
 .box-right {
     width: calc(50% - 15px);

@@ -26,15 +26,18 @@ body {
 }
 
 h2 {
+    font-weight: 500px;
+    color: white;
     padding: 25px;
 }
 
 .line {
     width: 60%;
     position: relative;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid white;
     margin: 0 auto;
     margin-bottom: 15px;
+    color: white;
 }
 
 span {
